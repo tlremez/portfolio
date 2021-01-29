@@ -18,21 +18,21 @@ export default function() {
   );
 
   /* Hero Section */
-  ScrollReveal().reveal('.hero-title', 
-    assignProps(
-      { 
-        delay: 500, 
-        origin: window.innerWidth > 768 ? 'left' : 'bottom'
-      }, defaultProps)
-  );
+//  ScrollReveal().reveal('.hero-title', 
+//    assignProps(
+//      { 
+//        delay: 500, 
+//        origin: window.innerWidth > 768 ? 'left' : 'bottom'
+//      }, defaultProps)
+//  );
   
-  ScrollReveal().reveal('.hero-cta', 
-    assignProps(
-      {
-        delay: 1000, 
-        origin: window.innerWidth > 768 ? 'left' : 'bottom'
-      }, defaultProps)
-  );
+//  ScrollReveal().reveal('.hero-cta', 
+//    assignProps(
+//      {
+//        delay: 1000, 
+//        origin: window.innerWidth > 768 ? 'left' : 'bottom'
+//      }, defaultProps)
+//  );
 
   /* About Section */
   ScrollReveal().reveal('.about-wrapper__image', 
