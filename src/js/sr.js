@@ -25,7 +25,7 @@ export default function() {
 //        origin: window.innerWidth > 768 ? 'left' : 'bottom'
 //      }, defaultProps)
 //  );
-  
+//  
 //  ScrollReveal().reveal('.hero-cta', 
 //    assignProps(
 //      {
@@ -38,7 +38,7 @@ export default function() {
   ScrollReveal().reveal('.about-wrapper__image', 
     assignProps(
       {
-        delay: 600,
+        delay: 300,
         origin: 'bottom'
       }, defaultProps)
   );
@@ -46,7 +46,7 @@ export default function() {
   ScrollReveal().reveal('.about-wrapper__info', 
     assignProps(
       {
-        delay: 1000,
+        delay: 600,
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -55,7 +55,7 @@ export default function() {
   ScrollReveal().reveal('.project-wrapper__text', 
     assignProps(
       {
-        delay: 500,
+        delay: 300,
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -63,7 +63,7 @@ export default function() {
   ScrollReveal().reveal('.project-wrapper__image', 
     assignProps(
       {
-        delay: 1000,
+        delay: 450,
         origin: window.innerWidth > 768 ? 'right' : 'bottom'
       }, defaultProps)
   );
@@ -72,7 +72,7 @@ export default function() {
   ScrollReveal().reveal('.contact-wrapper', 
     assignProps(
       {
-        delay: 800,
+        delay: 600,
         origin: 'bottom'
       }, defaultProps)
   );
